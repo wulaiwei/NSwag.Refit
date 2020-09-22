@@ -1,0 +1,9 @@
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\bin\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.deps.json
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\bin\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.dll
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.csprojAssemblyReference.cache
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.AssemblyInfoInputs.cache
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.AssemblyInfo.cs
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.csproj.CoreCompileInputs.cache
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\bin\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.pdb
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.dll
+C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp.Refit\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.Refit.pdb

@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\workdata\\source\\repos\\NSwag.Refit\\NSwag.Refit\\NSwag.CodeGeneration.CSharp.Refit\\NSwag.CodeGeneration.CSharp.Refit.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\workdata\\source\\repos\\NSwag.Refit\\NSwag.Refit\\NSwag.CodeGeneration.CSharp.Refit\\NSwag.CodeGeneration.CSharp.Refit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\workdata\\source\\repos\\NSwag.Refit\\NSwag.Refit\\NSwag.CodeGeneration.CSharp.Refit\\NSwag.CodeGeneration.CSharp.Refit.csproj",
+        "projectName": "NSwag.CodeGeneration.CSharp.Refit",
+        "projectPath": "C:\\Users\\workdata\\source\\repos\\NSwag.Refit\\NSwag.Refit\\NSwag.CodeGeneration.CSharp.Refit\\NSwag.CodeGeneration.CSharp.Refit.csproj",
+        "packagesPath": "C:\\Users\\workdata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\workdata\\source\\repos\\NSwag.Refit\\NSwag.Refit\\NSwag.CodeGeneration.CSharp.Refit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\workdata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.jwell56.com/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DotLiquid": {
+              "target": "Package",
+              "version": "[2.0.361, )"
+            },
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.8.26, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NSwag.CodeGeneration.CSharp": {
+              "target": "Package",
+              "version": "[13.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

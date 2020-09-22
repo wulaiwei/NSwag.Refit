@@ -307,3 +307,4 @@ SpaMvc
 /modules/HttpApiResponseCache
 /modules/EcommerceCloud.Mall/src/Jwell.Ecommerce.Web/Properties/launchSettings.json
 Logs
+.idea

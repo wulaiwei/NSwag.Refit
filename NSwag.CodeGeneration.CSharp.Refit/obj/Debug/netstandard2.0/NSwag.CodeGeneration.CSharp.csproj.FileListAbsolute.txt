@@ -1,5 +1,0 @@
-C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp\bin\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.deps.json
-C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp\bin\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.dll
-C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.csprojAssemblyReference.cache
-C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.AssemblyInfoInputs.cache
-C:\Users\workdata\source\repos\NSwag.Refit\NSwag.Refit\NSwag.CodeGeneration.CSharp\obj\Debug\netstandard2.0\NSwag.CodeGeneration.CSharp.AssemblyInfo.cs

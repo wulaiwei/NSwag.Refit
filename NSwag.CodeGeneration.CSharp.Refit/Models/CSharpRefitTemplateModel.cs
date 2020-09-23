@@ -79,15 +79,6 @@ namespace NSwag.CodeGeneration.CSharp.Refit.Models
         /// <summary>Gets a value indicating whether the controller has a base class.</summary>
         public bool HasBaseClass => !string.IsNullOrEmpty(BaseClass);
 
-        /// <summary>Gets the ASP.NET framework namespace.</summary>
-        public string AspNetNamespace => IsAspNetCore ? "Microsoft.AspNetCore.Mvc" : "System.Web.Http";
-
-        /// <summary>Gets or sets a value indicating whether the output should target ASP.NET Core.</summary>
-        public bool IsAspNetCore => _settings.RefitTarget == CSharpRefitTarget.AspNetCore;
-
-        /// <summary>Gets or sets a value indicating whether the output should target ASP.NET MVC.</summary>
-        public bool IsAspNet => _settings.RefitTarget == CSharpRefitTarget.AspNet;
-
         /// <summary>Gets the base class.</summary>
         public string BaseClass { get; }
 
@@ -108,12 +99,7 @@ namespace NSwag.CodeGeneration.CSharp.Refit.Models
 
         /// <summary>Gets a value indicating whether to generate optional parameters.</summary>
         public bool GenerateOptionalParameters => _settings.GenerateOptionalParameters;
-
-        /// <summary>Gets a value indicating whether to generate partial controllers.</summary>
-        public bool GeneratePartialControllers => _settings.RefitStyle == CSharpRefitStyle.Partial;
-
-        /// <summary>Gets a value indicating whether to generate abstract controllers.</summary>
-        public bool GenerateAbstractControllers => _settings.RefitStyle == CSharpRefitStyle.Abstract;
+        
 
         /// <summary>Gets a value indicating whether to allow adding cancellation token.</summary>
         public bool UseCancellationToken => _settings.UseCancellationToken;
@@ -122,7 +108,7 @@ namespace NSwag.CodeGeneration.CSharp.Refit.Models
         public bool GenerateModelValidationAttributes => _settings.GenerateModelValidationAttributes;
 
         /// <summary>Gets the type of the attribute used to specify a parameter as required.</summary>
-        public string RequiredAttributeType => IsAspNetCore ? "Microsoft.AspNetCore.Mvc.ModelBinding.BindRequired" : "System.ComponentModel.DataAnnotations.Required";
+        public string RequiredAttributeType => "System.ComponentModel.DataAnnotations.Required";
 
         /// <summary>Gets the Title.</summary>
         public string Title => _document.Info.Title;

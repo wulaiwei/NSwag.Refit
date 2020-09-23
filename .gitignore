@@ -308,3 +308,10 @@ SpaMvc
 /modules/EcommerceCloud.Mall/src/Jwell.Ecommerce.Web/Properties/launchSettings.json
 Logs
 .idea
+bin
+obj
+bin
+Cms
+obj
+obj
+bin

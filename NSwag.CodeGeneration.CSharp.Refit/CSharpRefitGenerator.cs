@@ -59,22 +59,6 @@ namespace NSwag.CodeGeneration.CSharp.Refit
         protected override IEnumerable<CodeArtifact> GenerateAllClientTypes()
         {
             var artifacts = base.GenerateAllClientTypes().ToList();
-
-            if (Settings.RefitTarget == CSharpRefitTarget.AspNet &&
-                _document.Operations.Count(operation =>
-                    operation.Operation.ActualParameters.Any(p => p.Kind == OpenApiParameterKind.Header)) > 0)
-            {
-                var template = Settings.CodeGeneratorSettings.TemplateFactory.CreateTemplate("CSharp",
-                    "Controller.AspNet.FromHeaderAttribute", new object());
-                artifacts.Add(new CodeArtifact("FromHeaderAttribute", CodeArtifactType.Class,
-                    CodeArtifactLanguage.CSharp, CodeArtifactCategory.Utility, template));
-
-                template = Settings.CodeGeneratorSettings.TemplateFactory.CreateTemplate("CSharp",
-                    "Controller.AspNet.FromHeaderBinding", new object());
-                artifacts.Add(new CodeArtifact("FromHeaderBinding", CodeArtifactType.Class, CodeArtifactLanguage.CSharp,
-                    CodeArtifactCategory.Utility, template));
-            }
-
             return artifacts;
         }
 

@@ -14,8 +14,6 @@ namespace NSwag.CodeGeneration.CSharp.Refit
             ClassName = "{controller}";
             CSharpGeneratorSettings.ArrayType = "System.Collections.Generic.List";
             CSharpGeneratorSettings.ArrayInstanceType = "System.Collections.Generic.List";
-            RefitStyle = CSharpRefitStyle.Partial;
-            RefitTarget = CSharpRefitTarget.AspNetCore;
             RouteNamingStrategy = CSharpRefitRouteNamingStrategy.None;
             GenerateModelValidationAttributes = false;
             UseCancellationToken = false;
@@ -36,12 +34,6 @@ namespace NSwag.CodeGeneration.CSharp.Refit
 
         /// <summary>Gets or sets the full name of the base class.</summary>
         public string ControllerBaseClass { get; set; }
-
-        /// <summary>Gets or sets the controller generation style (partial, abstract; default: partial).</summary>
-        public CSharpRefitStyle RefitStyle { get; set; }
-
-        /// <summary>Gets or sets the controller target framework.</summary>
-        public CSharpRefitTarget RefitTarget { get; set; }
 
         /// <summary>Gets or sets a value indicating whether to allow adding cancellation token </summary>
         public bool UseCancellationToken { get; set; }
